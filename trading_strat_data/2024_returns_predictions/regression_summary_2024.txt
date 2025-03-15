@@ -1,0 +1,69 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Yearly_Return   R-squared:                       0.220
+Model:                            OLS   Adj. R-squared:                  0.142
+Method:                 Least Squares   F-statistic:                     2.845
+Date:                Sat, 15 Mar 2025   Prob (F-statistic):           5.61e-07
+Time:                        22:28:17   Log-Likelihood:                -33.603
+No. Observations:                 390   AIC:                             139.2
+Df Residuals:                     354   BIC:                             282.0
+Df Model:                          35                                         
+Covariance Type:            nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                             0.1794      0.118      1.520      0.129      -0.053       0.411
+sentiment_score_positive          0.0005      0.000      1.097      0.273      -0.000       0.001
+sentiment_score_negative      -2.225e-06      0.000     -0.007      0.994      -0.001       0.001
+sentiment_score_polarity          0.1036      0.075      1.383      0.168      -0.044       0.251
+sentiment_score_subjectivity     -2.0810      1.899     -1.096      0.274      -5.816       1.654
+similarity_score                  0.0542      0.107      0.506      0.613      -0.157       0.265
+DJIA_Return_Previous_Year        -0.6503      0.131     -4.976      0.000      -0.907      -0.393
+Company_AMGN                      0.0240      0.070      0.344      0.731      -0.113       0.161
+Company_AMZN                      0.1379      0.069      1.998      0.046       0.002       0.274
+Company_AXP                      -0.0420      0.101     -0.414      0.679      -0.241       0.157
+Company_BA                        0.0884      0.075      1.183      0.238      -0.059       0.235
+Company_CAT                      -0.0244      0.072     -0.339      0.735      -0.166       0.117
+Company_CRM                      -0.1292      0.115     -1.122      0.263      -0.356       0.097
+Company_CSCO                     -0.1649      0.117     -1.413      0.158      -0.394       0.065
+Company_CVX                      -0.0280      0.054     -0.520      0.604      -0.134       0.078
+Company_DIS                      -0.0010      0.073     -0.014      0.989      -0.145       0.143
+Company_GS                       -0.0942      0.081     -1.160      0.247      -0.254       0.066
+Company_HD                        0.0804      0.071      1.140      0.255      -0.058       0.219
+Company_HON                       0.0517      0.071      0.731      0.465      -0.087       0.191
+Company_IBM                      -0.3370      0.137     -2.454      0.015      -0.607      -0.067
+Company_JNJ                      -0.0423      0.069     -0.609      0.543      -0.179       0.094
+Company_JPM                      -0.0765      0.111     -0.691      0.490      -0.294       0.141
+Company_KO                       -0.0944      0.078     -1.203      0.230      -0.249       0.060
+Company_MCD                      -0.1340      0.085     -1.580      0.115      -0.301       0.033
+Company_MMM                      -0.0981      0.070     -1.394      0.164      -0.237       0.040
+Company_MRK                      -0.0657      0.080     -0.818      0.414      -0.224       0.092
+Company_MSFT                     -0.0712      0.110     -0.646      0.519      -0.288       0.146
+Company_NKE                      -0.0182      0.072     -0.254      0.800      -0.159       0.123
+Company_NVDA                      0.3951      0.110      3.602      0.000       0.179       0.611
+Company_PG                       -0.0062      0.064     -0.096      0.924      -0.133       0.121
+Company_SHW                       0.0440      0.043      1.030      0.304      -0.040       0.128
+Company_TRV                       0.0789      0.286      0.276      0.782      -0.483       0.641
+Company_UNH                       0.1142      0.070      1.624      0.105      -0.024       0.253
+Company_V                         0.1535      0.110      1.392      0.165      -0.063       0.370
+Company_VZ                       -0.1483      0.083     -1.781      0.076      -0.312       0.016
+Company_WMT                       0.0533      0.078      0.683      0.495      -0.100       0.207
+Sector_Consumer Discretionary     0.0661      0.040      1.663      0.097      -0.012       0.144
+Sector_Consumer Staples          -0.0473      0.051     -0.933      0.351      -0.147       0.052
+Sector_Energy                    -0.0280      0.054     -0.520      0.604      -0.134       0.078
+Sector_Financials                 0.0197      0.079      0.249      0.804      -0.136       0.176
+Sector_Health Care                0.0302      0.037      0.818      0.414      -0.042       0.103
+Sector_Industrials                0.0176      0.043      0.407      0.685      -0.068       0.103
+Sector_Information Technology     0.2263      0.080      2.834      0.005       0.069       0.383
+Sector_Materials                  0.0440      0.043      1.030      0.304      -0.040       0.128
+==============================================================================
+Omnibus:                      107.328   Durbin-Watson:                   1.799
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1054.654
+Skew:                           0.850   Prob(JB):                    9.65e-230
+Kurtosis:                      10.875   Cond. No.                     1.86e+19
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 2.33e-31. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
