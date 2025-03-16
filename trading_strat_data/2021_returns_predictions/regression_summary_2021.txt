@@ -4,7 +4,7 @@ Dep. Variable:          Yearly_Return   R-squared:                       0.211
 Model:                            OLS   Adj. R-squared:                  0.106
 Method:                 Least Squares   F-statistic:                     2.014
 Date:                Sun, 16 Mar 2025   Prob (F-statistic):            0.00110
-Time:                        16:58:54   Log-Likelihood:                 7.4608
+Time:                        17:08:05   Log-Likelihood:                 7.4608
 No. Observations:                 300   AIC:                             57.08
 Df Residuals:                     264   BIC:                             190.4
 Df Model:                          35                                         
