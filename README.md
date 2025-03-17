@@ -1,4 +1,14 @@
 # Data Analysis Finance Environment Setup
+```mermaid
+graph TD;
+    A[Raw Data - 10-K Filings (Dow 30)] -->|Regex/API Extraction| B[filter_dow30_10K.ipynb];
+    B -->|Structured Data| C[api_data_extraction.ipynb];
+    C -->|Preprocessed Text Data| D[signal_generation.ipynb];
+    D -->|Sentiment & NLP Features| E[trading_strat_data.ipynb];
+    E -->|Feature Engineering| F[trading_strat_modelling.ipynb];
+    F -->|Predicted Returns| G[trading_strat_backtest.ipynb];
+    G -->|Backtest Results & Visualization| H[Performance Evaluation];
+```
 
 To set up the environment for data analysis in finance, follow these steps:
 
