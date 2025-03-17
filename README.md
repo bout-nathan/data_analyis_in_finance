@@ -1,7 +1,7 @@
 # Data Analysis in Finance
 
 ```mermaid
-graph TD;
+graph LR;
     A[Raw 10-K Filings] -->|Data Extraction| B[Preprocessing & Cleaning];
     B -->|Text Parsing| C[Sentiment Analysis];
     
