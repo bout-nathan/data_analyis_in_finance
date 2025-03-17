@@ -1,10 +1,10 @@
 # Data Analysis in Finance
 
 ```mermaid
-graph LR;
+graph TD;
     A[Raw 10-K Filings] -->|Data Extraction| B[Preprocessing & Cleaning];
     B -->|Text Parsing| C[Sentiment Analysis];
-    
+
     C -->|Dictionary-Based Approach| D1[Sentiment Scores - Loughran & McDonald];
     C -->|Language Similarity| D2[TF-IDF & Cosine Similarity];
     C -->|Deep Learning Approach| D3[Sentiment Analysis with FinBERT];
@@ -15,7 +15,6 @@ graph LR;
 
     E -->|Predictive Modeling| F[Regression & Machine Learning];
     F -->|Stock Ranking| G[Long-Short Portfolio Strategy];
-
 ```
 
 ## Data Analysis Finance Environment Setup
