@@ -1,4 +1,5 @@
-# Data Analysis Finance Environment Setup
+# Data Analysis in Finance
+
 ```mermaid
 graph TD;
     A[Raw 10-K Filings] -->|Data Extraction| B[Preprocessing & Cleaning];
@@ -16,6 +17,8 @@ graph TD;
     F -->|Stock Ranking| G[Long-Short Portfolio Strategy];
 
 ```
+
+## Data Analysis Finance Environment Setup
 
 To set up the environment for data analysis in finance, follow these steps:
 
