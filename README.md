@@ -41,11 +41,6 @@ This repository contains several Jupyter notebooks, each focusing on different s
    - Trains the model using an expanding window approach.
    - Generates predicted returns and ranks stocks based on expected performance.
 
-### 6. `trading_strat_backtest.ipynb`
-   - Simulates a long-short trading strategy using predicted returns.
-   - Conducts rolling backtests to evaluate strategy performance from 2021 to 2024.
-   - Compares strategy returns with the DJIA benchmark.
-
 ## Additional Resources
 - All generated datasets and visualization outputs are stored in the `trading_strat_data` folder.
 - The results of each notebook are linked and contribute to the final trading strategy analysis.
